@@ -1,0 +1,46 @@
+/* work sans front from google front */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+/* common shared styles */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+/* nav styles */
+nav{
+    background: #fff;
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+
+}
+.logo-container img{
+    width:86.041px;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 45px;
+}
+.gamer-section{
+    color: palevioletred;
+}
+
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color:#3C354F;
+
+}
+.nav-item-container a{
+    text-decoration: none;
+}
