@@ -216,7 +216,34 @@ font-weight: 400;
     bottom: 300px;
 
 }
+/* game styles */
 
+.game-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.rec-g{
+    border-radius: 50px;
+    background: #FFF;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.arcade{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.rec-g:hover{
+    border: #F948B2 2px solid;
+    color: #F948B2;
+}
 
 
 /* footer styles */
@@ -257,6 +284,7 @@ font-weight: 600;
 .icon-container{
     display: flex;
     justify-content: space-evenly;
+    
 }
 .icon-container img{
     width: 3%;
