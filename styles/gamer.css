@@ -169,5 +169,50 @@ font-weight: 400;
 .img{
     width: 100%;
 }
+/* play styles */
+.play-container{
+    width: 80%;
+    margin: 0 auto;
+}
 
 
+.play-instant{
+    text-align:left;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.ply{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-desk{
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+}
+.play-container{
+    display: flex;
+}
+.play-img-container img{
+    height: 90%;
+    margin-left: 50px;
+}
+.card-1{
+    border-radius: 8px
+   
+}
+.girl-pic{
+    border-radius: 8px;
+    color:#FFFFFF ;
+    width: 318px;
+    padding: 10px 10px 10x 10px;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+
+}
