@@ -1,11 +1,9 @@
 /* mobile responsive style */
 @media screen and (max-width:400px){
-    .nav-container{
+    .nav-container,
+    .game-container
+    .play-container{
         flex-direction: column;
-    }
-    .nav-item-container{
-        flex-direction: column;
-        
     }
     .nav-item-container{
         margin-top: 20px;
